@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>flextutorial</title>
+  </head>
+  <body>
+    <div style="display: flex">
+      <div style="background-color: orange">div1-1</div>
+      <div style="background-color: lightblue">div2</div>
+    </div>
+
+    <div style="display: flex; margin-top: 10px; height: 80px">
+      <div style="background-color: orange; flex: 1">div1-1</div>
+      <div style="background-color: lightblue; width: 500px">div2</div>
+      <div style="background-color: orange; flex: 1">div2</div>
+    </div>
+
+    <div
+      style="
+        display: flex;
+        margin-top: 10px;
+        height: 80px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: black;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+      "
+    >
+      <div style="background-color: orange; width: 100px">div1-1</div>
+      <div style="background-color: lightblue; width: 100px">div2</div>
+      <div style="background-color: orange; width: 100px">div2</div>
+    </div>
+  </body>
+</html>
